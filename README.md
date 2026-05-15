@@ -1,6 +1,6 @@
 # Everdell RU
 
-Русификация цифровой версии Everdell (Steam, Dire Wolf Digital) для версии **2.0.1.1056**. Перевод от **Atanvaron**, адаптирован под 2.0.x с поддержкой дополнения Bellfaire.
+Русификация цифровой версии [Everdell](https://store.steampowered.com/app/1722840/Everdell/) (Steam, Dire Wolf Digital) для версии **2.0.1.1056**. Перевод от **Atanvaron**, адаптирован под 2.0.x с поддержкой дополнения Bellfaire.
 
 ---
 
