@@ -2,6 +2,7 @@
 REM Builds Everdell_2.0.1.1056_RU.exe from install_russian.py.
 REM Bundles game.cfg and localization into the exe and embeds an
 REM admin manifest (--uac-admin) so it can write into Program Files.
+REM --specpath %TEMP% keeps PyInstaller's generated .spec out of the repo.
 
 cd /d "%~dp0"
 
@@ -12,6 +13,7 @@ echo.
 echo Building exe...
 python -m PyInstaller --onefile --uac-admin --clean ^
   --name "Everdell_2.0.1.1056_RU" ^
+  --specpath "%TEMP%" ^
   --add-data "2.0.1.1056\game.cfg;." ^
   --add-data "2.0.1.1056\localization;." ^
   install_russian.py || goto :fail
